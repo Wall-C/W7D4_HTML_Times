@@ -1,0 +1,23 @@
+#infos{
+	position:relative;
+	height:3em;
+}
+
+
+#infos-right{
+	background-color:red;
+	position: absolute;
+	right: 0.4rem;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+
+#infos-left {
+	background-color:yellow;
+	position: absolute;
+	left: 0.4rem;
+	height: 100%;
+	vertical-align: middle;
+}

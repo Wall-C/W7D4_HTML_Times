@@ -83,5 +83,4 @@ li {
 li + li::before {
     content: " | ";
     color: grey;
-
 }
