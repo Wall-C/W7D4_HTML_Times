@@ -1,16 +1,25 @@
 #footer {
-  position: relative;
-  width: 90%;
+  position: absolute;
+  width: 100%;
   height: 600px;
-  margin-left: 5%;
-  margin-right: 5%;
   background: pink;
 }
 
 #footer_top {
   text-align: right;
   margin-bottom: 5em;
-  margin-right: 15em;
+  padding-right: 20%;
+  tex-decoration: none;
+}
+
+#topleft {
+  padding-left: 2em;
+  margin: 0 auto;
+}
+
+#footer_top a:link {
+  text-decoration: none;
+  color: lightblue;
 }
 
 hr {
@@ -28,32 +37,32 @@ hr {
   padding-top: 2em;
   display: inline-block;
   width: 100%;
-  align-content: center;
-  padding: 0 10% 0 10%;
   background: lightblue;
+  text-align: center;
 }
 
 .columns {
   display: inline-block;
   height: 20em;
-  padding-right: 2em;
   background: green;
   font-size: 20px;
-  text-decoration: none;
+  text-align: left;
 }
 
 #topright {
   border-left: thin solid lightgrey;
   padding-left: 1em;
+  padding-right: 2em;
+  margin: 0 auto;
 }
 
 .bottom {
   height: 2em;
   background: red;
-  width: 97%;
   border-top: thin solid lightgrey;
   margin-top: 0.5em;
   padding-top: 0.5em;
+  text-align: center;
 }
 
 
