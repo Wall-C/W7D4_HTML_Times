@@ -1,10 +1,8 @@
 #footer {
   position: relative;
-  width: 80%;
+  width: 60%;
   height: 600px;
-  left: 25%;
-  right: 25%;
-  margin: 0 0 0 -150px;
+  margin: 0 0 0 20%;
   background: pink;
 }
 
@@ -16,17 +14,22 @@
   padding-top: 2em;
   display: inline-block;
   width: 100%;
-  border-bottom: thin solid lightgrey;
 }
 
 .columns {
   display: inline-block;
   height: 20em;
-  padding-right: 0.7em;
+  padding-right: 3em;
+  background: green;
 }
 
-.items {
+#topright {
+  border-left: thin solid lightgrey;
+  padding-left: 1em;
   display: inline-block;
-  background: red;
-  width: 100%;
+}
+
+#bottomleft {
+  height: 1em;
+  display: inline-block;
 }
