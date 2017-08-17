@@ -41,6 +41,12 @@
 
 #cover{
 	width:100%;
+	margin-bottom:1rem;
+}
+
+#cover-img{
+	width:100%;
+	margin-bottom:0.5rem;
 }
 
 #cover-label{
