@@ -1,23 +1,64 @@
-#infos{
+#content{
+	width:100%;
 	position:relative;
-	height:3em;
 }
 
+#infos{
+	width:100%;
+	position:relative;
+	height:3rem;
+	background-color: lightblue;
+
+}
 
 #infos-right{
-	background-color:red;
+	background-color:green;
 	position: absolute;
 	right: 0.4rem;
 	height: 100%;
 	vertical-align: middle;
 }
 
-
+.infos-author{
+	font-size: 0.6875rem;
+	line-height:0.75rem;
+	font-style:normal;
+	font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+}
 
 #infos-left {
-	background-color:yellow;
+	background-color:cyan;
 	position: absolute;
 	left: 0.4rem;
 	height: 100%;
 	vertical-align: middle;
 }
+
+.infos-img{
+	width:2rem;
+	height:2rem;
+}
+
+#cover{
+	width:100%;
+}
+
+#cover-label{
+	display:inline-block;
+	font-size:14px;
+}
+
+#cover-photograph{
+	display: inline-block;
+	font-size: 11px;
+	color: rgb(153,153,153);
+}
+
+.article{
+	top:6rem;
+	display: inline-block;
+}
+
+
+
+
