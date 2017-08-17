@@ -1,0 +1,46 @@
+#header{
+	height:3em;
+	background-color:green;
+	position: fixed;
+	top:0;
+	width: 100%;
+	text-align: center;
+}
+
+#header-left {
+	background-color:yellow;
+	position: absolute;
+	left: 0.5em;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#header-center {
+	vertical-align: middle;
+}
+
+#header-right {
+	background-color:red;
+	position: absolute;
+	right: 0.5rem;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#content {
+	padding: 3em;
+}
+
+button{
+	font-size: 0.6875rem;
+	line-height: 0.8125rem;
+	border-radius: 3px;
+	border: 1px solid #E2E2E2;
+	padding: 0.5rem;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+.header-button-left{
+	border: 1px solid #E2E2E2;
+	background-color: #fff;
+}

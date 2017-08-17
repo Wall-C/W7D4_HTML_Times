@@ -1,0 +1,35 @@
+@font-face{
+	font-family: "nyt-cheltenham";
+	src: "https://typeface.nyt.com/fonts/nyt-cheltenham-300-normal.woff" format("woff");
+	font-weight:300;
+}
+
+@font-face{
+	font-family: "nyt-cheltenham";
+	src: "https://typeface.nyt.com/fonts/nyt-cheltenham-500-normal.woff" format("woff");
+	font-weight:500;
+}
+
+@font-face{
+	font-family: "nyt-cheltenham";
+	src: "https://typeface.nyt.com/fonts/nyt-cheltenham-700-normal.woff" format("woff");
+	font-weight:700;
+}
+
+@font-face{
+	font-family: "nyt-franklin";
+	src: "https://typeface.nyt.com/fonts/nyt-franklin-300-normal.woff" format("woff");
+	font-weight:300;
+}
+
+@font-face{
+	font-family: "nyt-franklin";
+	src: "https://typeface.nyt.com/fonts/nyt-franklin-500-normal.woff" format("woff");
+	font-weight:500;
+}
+
+@font-face{
+	font-family: "nyt-franklin";
+	src: "https://typeface.nyt.com/fonts/nyt-franklin-700-normal.woff" format("woff");
+	font-weight:700;
+}

@@ -1,0 +1,89 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	font-family: georgia,"times new roman",times,serif;
+}
+
+body {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: #CCCCCC;
+}
+
+.standard{
+	font-size: 1.0625rem;
+	font-weight: 400;
+	color: #333;
+	text-decoration: none;
+}
+
+.gothic{
+	font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.ib {
+	display: inline-block;
+}
+
+.big {
+	font-size: 15px;
+}
+
+.header-text {
+	font-size: 30px;
+	font-weight: 300;
+	font-style: normal;
+	margin-bottom:1em;
+}
+
+.helper-middle{
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    background-color:red;
+}
+
+/*
+form label{
+	display:inline-block;
+	font-size: 14px;
+	font-weight: 350;
+	margin-bottom: 1em;
+}
+
+input.text-input {
+	border-radius: 3px;
+	border: 1px solid #d8d8d8;
+	line-height: 1.3em;
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+input:focus{
+	background-color:red;
+}
+
+.input-note{
+	font-size: 10px;
+	margin-bottom: 1em;
+}
+*/
