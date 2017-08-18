@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="CSS/content.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/fonts.css">
-    <link href="https://typeface.nyt.com/fonts/nyt-cheltenham-300-normal.woff" rel='stylesheet' type="text/css">
-    <link href="https://typeface.nyt.com/fonts/nyt-franklin-300-normal.woff" rel='stylesheet'>
 </head>
 
 <body>
@@ -19,30 +17,32 @@
         <span class="helper-middle"></span>
         <div id="header-left" class="ib">
             <span class="helper-middle"></span>
-            <button class="header-button-left"><img /> SECTIONS </button>
-            <img src="resources/home.png" alt="Home" />
-            <img src="resources/search.png" alt="Search" />
+            <button class="header-button-left"><img class="button-img" src="resources/sprites.svg#svgView(viewBox(35, 243, 16, 16))" alt="Home" /> SECTIONS </button>
+            <img src="resources/sprites.svg#svgView(viewBox(119, 276, 16, 16))" alt="Home" class="img-nav" />
+            <img src="resources/sprites.svg#svgView(viewBox(456, 210, 16, 16))"  class="img-nav" alt="Search" />
         </div>
         <div id="header-center" class="ib">
             <span class="helper-middle"></span>
-            <img src="resources/logo.png" alt="The New York Times" />
+            <svg class="logo">
+                <use height="2rem" href="resources/logo.svg#Layer_1"></use>
+            </svg>
         </div>
         <div id="header-right" class="ib">
             <span class="helper-middle"></span>
             <button class="header-button-right">SUBSCRIBE NOW</button>
             <button class="header-button-right">LOG IN</button>
-            <img href="resources/settings.png" alt="Settings" />
+            <img src="resources/sprites.svg#svgView(viewBox(86, 243, 16, 16))"  class="img-nav" alt="Settings" />
         </div>
     </div>
     <br />
     <div id="content">
-        <p class="category">SPACE & COSMOS</p>
+        <a href="#" class="category">SPACE & COSMOS</a>
         <h1>Space Ripples Reveal Big Bang's Smoking Gun</h1>
         <hr />
         <div id="infos">
             <div id="infos-left">
                 <span class="helper-middle"></span>
-                <p class="infos-author ib"><strong>By <a href="#" class="bold">DENNIS OVERBYE</a></strong> MARCH 17, 2014</p>
+                <p class="infos-author ib"><strong>By <a href="#" class="bold">DENNIS OVERBYE</a></strong> &nbsp; &nbsp; &nbsp; MARCH 17, 2014</p>
             </div>
             <div id="infos-right">
                 <span class="helper-middle"></span>
@@ -277,6 +277,7 @@
                 </ul>
             </div>
         </div>
+    </div>
 </body>
 
 </html>

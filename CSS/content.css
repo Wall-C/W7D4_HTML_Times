@@ -4,6 +4,21 @@
 	z-index:300;
 }
 
+.category{
+	display:inline-block;
+	font-size:0.8125rem;
+	line-height: 1rem;
+	font-weight:700;
+	font-family:"nyt-franklin",arial,helvetica,sans-serif;
+	letter-spacing: 0.05em;
+	color:#333;
+	margin-bottom: 2rem;
+}
+
+.category:hover{
+	text-decoration: underline;
+}
+
 #infos{
 	width:100%;
 	position:relative;

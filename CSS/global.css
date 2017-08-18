@@ -25,6 +25,15 @@ hr {
     color: #CCCCCC;
 }
 
+h1{
+	font-size:2.125rem;
+	line-height: 2.375rem;
+	font-weight: 700;
+	font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+	font-style: italic;
+	margin-bottom:1rem;
+}
+
 .vertical-separator{
 	display: inline-block;
     margin-top: 0.2rem;

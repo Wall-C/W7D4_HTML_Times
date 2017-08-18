@@ -1,37 +1,57 @@
 @font-face{
 	font-family: "nyt-cheltenham";
-	src: "https://typeface.nyt.com/fonts/nyt-cheltenham-300-normal.woff" format("woff");
+	src: url("/resources/fonts/nyt-cheltenham-300-normal.woff") format("woff");
 	font-weight:300;
 }
 
 @font-face{
 	font-family: "nyt-cheltenham";
-	src: "https://typeface.nyt.com/fonts/nyt-cheltenham-500-normal.woff" format("woff");
-	font-weight:500;
+	src: url("/resources/fonts/nyt-cheltenham-400-normal.woff") format("woff");
+	font-weight:400;
 }
 
 @font-face{
 	font-family: "nyt-cheltenham";
-	src: "https://typeface.nyt.com/fonts/nyt-cheltenham-700-normal.woff" format("woff");
+	src: url("/resources/fonts/nyt-cheltenham-700-normal.woff") format("woff");
 	font-weight:700;
 }
 
 @font-face{
+	font-family: "nyt-cheltenham";
+	src: url("/resources/fonts/nyt-cheltenham-700-italic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face{
+	font-family: "nyt-cheltenham";
+	src: url("/resources/fonts/nyt-cheltenham-extra-condensed-bold-700-normal.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face{
 	font-family: "nyt-franklin";
-	src: "https://typeface.nyt.com/fonts/nyt-franklin-300-normal.woff" format("woff");
+	src: url("/resources/fonts/nyt-franklin-300-normal.woff") format("woff");
 	font-weight:300;
 }
 
 @font-face{
 	font-family: "nyt-franklin";
-	src: "https://typeface.nyt.com/fonts/nyt-franklin-500-normal.woff" format("woff");
+	src: url("/resources/fonts/nyt-franklin-500-normal.woff") format("woff");
 	font-weight:500;
 }
 
 @font-face{
 	font-family: "nyt-franklin";
-	src: "https://typeface.nyt.com/fonts/nyt-franklin-700-normal.woff" format("woff");
+	src: url("/resources/fonts/nyt-franklin-700-normal.woff") format("woff");
 	font-weight:700;
+}
+
+@font-face{
+	font-family: "Roboto";
+	src: url("/resources/fonts/Roboto.woff2") format("woff2");
 }
 
 
